@@ -1,0 +1,391 @@
+.maveloa-refined {
+  --refined-espresso: #24150f;
+  --refined-coffee: #3a2118;
+  --refined-warm: #70452d;
+  --refined-caramel: #b47a45;
+  --refined-terracotta: #a85d3a;
+  --refined-cream: #f7f0e5;
+  --refined-beige: #e9d9c4;
+  --refined-olive: #66704a;
+  color: var(--refined-coffee);
+  background: var(--refined-cream);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.maveloa-refined .section-wrap {
+  width: min(1220px, calc(100% - 72px));
+}
+
+.maveloa-refined .section-pad {
+  padding-block: clamp(84px, 9.2vw, 128px);
+}
+
+.maveloa-refined .eyebrow {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .19em;
+  line-height: 1.4;
+}
+
+.maveloa-refined .eyebrow::before {
+  width: 24px;
+  background: var(--refined-caramel);
+}
+
+.maveloa-refined .hero-content {
+  max-width: 770px;
+  font-size: clamp(52px, 5.2vw, 82px) !important;
+  font-weight: 500;
+  line-height: .99 !important;
+  letter-spacing: -.038em !important;
+  text-wrap: balance;
+}
+
+.maveloa-refined .hero-overlay {
+  background: linear-gradient(90deg, rgba(28, 16, 10, .86) 0%, rgba(28, 16, 10, .56) 42%, rgba(28, 16, 10, .10) 78%, transparent 100%);
+}
+
+.maveloa-refined .hero-image {
+  filter: saturate(.91) sepia(.06);
+}
+
+.maveloa-refined .refined-brand {
+  gap: 13px;
+}
+
+.maveloa-refined .refined-brand > span:first-child {
+  width: 43px;
+  height: 43px;
+}
+
+.maveloa-refined .refined-brand .serif {
+  font-size: 1.55rem;
+  font-weight: 500;
+  letter-spacing: .015em;
+}
+
+.maveloa-refined header nav {
+  gap: 30px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .025em;
+}
+
+.maveloa-refined nav[aria-label='Mobile navigation'] .serif {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .03em;
+}
+
+.maveloa-refined .nav-link::after {
+  bottom: -8px;
+  height: 1px;
+}
+
+.maveloa-refined .btn {
+  min-height: 46px;
+  gap: 10px;
+  padding-inline: 19px;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(36, 21, 15, .11);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .025em;
+  transition: transform .35s cubic-bezier(.22, 1, .36, 1), background-color .25s ease, color .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+
+.maveloa-refined #home .hero-content + p {
+  max-width: 560px;
+  color: #f3e8d8;
+  font-size: clamp(16px, 1.2vw, 18px);
+  line-height: 1.6;
+}
+
+.maveloa-refined .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 16px rgba(36, 21, 15, .15);
+}
+
+.maveloa-refined .btn svg,
+.maveloa-refined .text-link svg {
+  transition: transform .3s cubic-bezier(.22, 1, .36, 1);
+}
+
+.maveloa-refined .btn:hover svg,
+.maveloa-refined .text-link:hover svg {
+  transform: translateX(4px);
+}
+
+.maveloa-refined .btn-solid {
+  color: #fff9ef;
+  background: var(--refined-terracotta);
+}
+
+.maveloa-refined .btn-solid:hover {
+  background: #984f32;
+}
+
+.maveloa-refined .btn-light {
+  color: var(--refined-coffee);
+  background: var(--refined-cream);
+}
+
+.maveloa-refined .btn-outline-light {
+  border-color: rgba(255, 249, 239, .66);
+  box-shadow: none;
+}
+
+.maveloa-refined .btn-outline-light:hover {
+  color: var(--refined-espresso);
+  background: rgba(247, 240, 229, .94);
+}
+
+.maveloa-refined main h2.serif {
+  font-size: clamp(36px, 4vw, 58px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+
+.maveloa-refined main h3.serif {
+  font-weight: 500;
+  letter-spacing: -.02em;
+}
+
+.maveloa-refined main p {
+  line-height: 1.68;
+}
+
+.maveloa-refined #about p,
+.maveloa-refined #contact > div > div:first-child > p {
+  font-size: 16px;
+}
+
+.maveloa-refined .menu-row h3.serif {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+}
+
+.maveloa-refined .menu-row p {
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.maveloa-refined #menu > div > div:first-child {
+  padding-bottom: 28px;
+}
+
+.maveloa-refined #menu > div > div:first-child h2 {
+  max-width: 680px;
+}
+
+.maveloa-refined #menu > div > div:first-child p {
+  max-width: 560px;
+  font-size: 15px;
+}
+
+.maveloa-refined .menu-tabs {
+  gap: 22px;
+  border-bottom: 1px solid #ddcfbc;
+}
+
+.maveloa-refined .menu-tabs button {
+  position: relative;
+  min-height: 43px;
+  padding-inline: 2px;
+  border: 0;
+  border-radius: 0;
+  color: #806b56;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+
+.maveloa-refined .menu-tabs button[aria-selected='true'] {
+  color: var(--refined-coffee);
+  background: transparent;
+}
+
+.maveloa-refined .menu-tabs button[aria-selected='true']::after {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  background: var(--refined-caramel);
+  content: '';
+}
+
+.maveloa-refined .menu-tabs button:hover {
+  border-color: transparent;
+  color: var(--refined-terracotta);
+}
+
+.maveloa-refined #menu [role='tabpanel'] {
+  column-gap: 52px;
+}
+
+.maveloa-refined #menu [role='tabpanel'] .menu-row {
+  min-height: 96px;
+  padding-inline: 8px;
+}
+
+.maveloa-refined .menu-row:hover {
+  background: rgba(180, 122, 69, .055);
+  transform: translateX(2px);
+}
+
+.maveloa-refined .image-frame {
+  border-radius: 8px;
+}
+
+.maveloa-refined #about .image-frame {
+  border-radius: 6px 88px 6px 6px;
+}
+
+.maveloa-refined section[aria-labelledby='coffee-title'] .image-frame {
+  border-radius: 46% 46% 8px 8px;
+}
+
+.maveloa-refined figure.image-frame {
+  border-radius: 8px;
+}
+
+.maveloa-refined .image-frame img {
+  transition: transform .9s cubic-bezier(.22, 1, .36, 1);
+}
+
+.maveloa-refined .image-frame:hover img {
+  transform: scale(1.025);
+}
+
+.maveloa-refined .enquiry-panel {
+  border: 1px solid rgba(112, 69, 45, .09);
+  border-radius: 12px;
+  box-shadow: 0 12px 34px rgba(58, 33, 24, .075);
+}
+
+.maveloa-refined .form-control {
+  min-height: 48px;
+  border: 1px solid #cdbda7;
+  border-radius: 6px;
+  background-color: rgba(255, 253, 248, .72);
+  font-size: 14px;
+  transition: border-color .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+
+.maveloa-refined .form-control:focus {
+  border-color: var(--refined-terracotta);
+  outline: 0;
+  background: #fffdf8;
+  box-shadow: 0 0 0 3px rgba(168, 93, 58, .13);
+}
+
+.maveloa-refined :focus-visible {
+  outline: 2px solid var(--refined-caramel);
+  outline-offset: 4px;
+}
+
+.maveloa-refined #reviews article {
+  border-radius: 10px;
+  background-color: #3b4d38;
+}
+
+.maveloa-refined footer a,
+.maveloa-refined .nav-link {
+  transition: color .2s ease;
+}
+
+.maveloa-refined [data-testid='back-to-top'] {
+  border-radius: 7px;
+  background: var(--refined-terracotta);
+  box-shadow: 0 5px 16px rgba(36, 21, 15, .2);
+}
+
+@media (max-width: 1023px) {
+  .maveloa-refined .hero-overlay {
+    background: linear-gradient(90deg, rgba(28, 16, 10, .84), rgba(28, 16, 10, .54) 64%, rgba(28, 16, 10, .14));
+  }
+}
+
+@media (max-width: 767px) {
+  .maveloa-refined .section-wrap {
+    width: min(100% - 40px, 560px);
+  }
+
+  .maveloa-refined .section-pad {
+    padding-block: 78px;
+  }
+
+  .maveloa-refined #home {
+    min-height: 760px;
+  }
+
+  .maveloa-refined #home .section-wrap {
+    padding-bottom: 76px;
+    padding-top: 128px;
+  }
+
+  .maveloa-refined .hero-content {
+    max-width: 100%;
+    font-size: clamp(42px, 11vw, 52px) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -.035em !important;
+  }
+
+  .maveloa-refined .hero-image {
+    object-position: 48% center;
+  }
+
+  .maveloa-refined .hero-overlay {
+    background: linear-gradient(90deg, rgba(28, 16, 10, .86), rgba(28, 16, 10, .62));
+  }
+
+  .maveloa-refined .menu-tabs {
+    gap: 20px;
+    margin-right: -4px;
+    margin-left: -4px;
+  }
+
+  .maveloa-refined .menu-tabs button {
+    font-size: 11px;
+  }
+
+  .maveloa-refined #menu [role='tabpanel'] {
+    gap: 0;
+  }
+
+  .maveloa-refined #menu [role='tabpanel'] .menu-row {
+    min-height: 92px;
+    padding-inline: 4px;
+  }
+
+  .maveloa-refined #about .image-frame {
+    border-top-right-radius: 68px;
+  }
+
+  .maveloa-refined .enquiry-panel {
+    padding: 22px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .maveloa-refined *,
+  .maveloa-refined *::before,
+  .maveloa-refined *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
